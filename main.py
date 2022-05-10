@@ -25,7 +25,7 @@ class Main(QWidget):
         self.setWindowIcon(QtGui.QIcon('background.png'))
         pal = self.palette()
         pal.setBrush(QtGui.QPalette.Normal, QtGui.QPalette.Window,
-                     QtGui.QBrush(QtGui.QPixmap("2022-04-14 16.04.04.png")))
+                     QtGui.QBrush(QtGui.QPixmap("background.png")))
         self.setPalette(pal)
 
         self.get_link_text = QLabel('WellSkan', self)
@@ -182,7 +182,7 @@ class About(QWidget):
         self.setWindowIcon(QtGui.QIcon('background.png'))
         pal = self.palette()
         pal.setBrush(QtGui.QPalette.Normal, QtGui.QPalette.Window,
-                     QtGui.QBrush(QtGui.QPixmap("2022-04-14 16.04.04.png")))
+                     QtGui.QBrush(QtGui.QPixmap("background.png")))
         self.setPalette(pal)
 
         self.compare = QPushButton(self)
