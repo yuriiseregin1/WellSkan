@@ -105,6 +105,7 @@ class CreateRequest(QWidget):
         self.output.setStyleSheet("background-color: rgba(180, 180, 180, 160)")
         layout = QVBoxLayout(self)
         layout.addWidget(self.output)
+
         layout.addWidget(self.compare)
         self.output.setAlignment(Qt.AlignCenter)
 
