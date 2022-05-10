@@ -291,6 +291,7 @@ class Request(QWidget):
             return 0
 
 
+
 with open('result.txt', 'w') as f:
     f.write(str('Ошибка'))
 
