@@ -299,3 +299,4 @@ if __name__ == '__main__':
     wnd = Main()
     wnd.show()
     sys.exit(app.exec())
+
