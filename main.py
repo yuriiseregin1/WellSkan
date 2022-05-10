@@ -27,7 +27,6 @@ class Main(QWidget):
         pal.setBrush(QtGui.QPalette.Normal, QtGui.QPalette.Window,
                      QtGui.QBrush(QtGui.QPixmap("background.png")))
         self.setPalette(pal)
-
         self.get_link_text = QLabel('WellSkan', self)
         self.get_link_text.move(0, 10)
         self.get_link_text.setFixedSize(640, 20)
