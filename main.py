@@ -40,7 +40,6 @@ class Main(QWidget):
         self.compare1.setFont(QtGui.QFont("Arial", 16, QtGui.QFont.Bold))
         self.compare1.clicked.connect(self.open_process)
         self.compare2 = QPushButton(self)
-
         self.compare2.resize(275, 190)
         self.compare2.move(30, 265)
         self.compare2.setText('Как это работает')
