@@ -32,7 +32,6 @@ class Main(QWidget):
         self.get_link_text.setFixedSize(640, 20)
         self.get_link_text.setFont(QtGui.QFont("Arial", 20, QtGui.QFont.Bold))
         self.get_link_text.setAlignment(Qt.AlignCenter)
-
         self.compare1 = QPushButton(self)
         self.compare1.resize(580, 190)
         self.compare1.move(30, 45)
