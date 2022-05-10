@@ -100,6 +100,7 @@ class CreateRequest(QWidget):
 
         with open('result.txt', 'r') as f:
             result = f.read()
+
         self.output = QLabel('Результат обработки изображения - ' + str(result), self)
         self.output.setFont(QtGui.QFont("Times", 20, QtGui.QFont.Bold))
         self.output.setStyleSheet("background-color: rgba(180, 180, 180, 160)")
